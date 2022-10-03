@@ -49,7 +49,7 @@
     grid-area: contact;
 }
 
-.selections button{
+.aboutButton, .contactButton, .projectsButton{
     width: 120px;
     height: 50px;
     background-color: rgb(82, 4, 85);
@@ -59,9 +59,13 @@
     font-size: 100%;
     font-weight: bold;
     cursor: grab;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.selections button:hover{
+.aboutButton:hover, .contactButton:hover, .projectsButton:hover{
     font-size: x-large;
     font-weight: bolder;
     animation: buttonanimation 1s;
