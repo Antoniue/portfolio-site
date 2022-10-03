@@ -1,0 +1,80 @@
+.content{
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: bganimation 7s infinite;
+}
+
+.welcomeMessage{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.welcomeMessage h2{
+    font-size: 20px;
+}
+
+.nameLine{
+    font-size: 70px;
+}
+
+.nameLine h2{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 8%;
+}
+
+.selections{
+    display: grid;
+    grid-template-columns: 7.5fr 2.5fr 5fr, 2.5fr 7.5fr;
+    grid-template-rows: 5fr 5fr;
+    grid-template-areas: 
+    'about about . projects projects'
+    '. contact contact contact .';
+    gap: 10px;
+}
+
+.aboutButton{
+    grid-area: about;
+}
+.projectsButton{
+    grid-area: projects;
+}
+.contactButton{
+    grid-area: contact;
+}
+
+.selections button{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(82, 4, 85);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10%;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+    cursor: grab;
+}
+
+.selections button:hover{
+    font-size: x-large;
+    font-weight: bolder;
+    animation: buttonanimation 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bganimation {
+    0% {background-color: rgba(121, 121, 121, 0.418);}
+    50%{background-color:rgba(82, 4, 85, 0.418);}
+    100% {background-color: rgba(121, 121, 121, 0.418);}
+}
+
+@keyframes buttonanimation {
+    0%{background-color:rgba(82, 4, 85, 0.726);}
+    100% {background-color: rgba(121, 121, 121, 0.418);}
+}
