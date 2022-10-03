@@ -9,7 +9,7 @@ function HomePage(){
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             }}>
-            <div className="content">
+            <div className="homeContent">
                 <div className="welcomeMessage">
                     <h2>Hello! I'm </h2>
                     <h1 className='nameLine'>Anton Jarayseh</h1>
