@@ -16,9 +16,9 @@ function HomePage(){
                     <h2>I welcome you to sail through my Portfolio!</h2>
                 </div>
                 <nav className="selections">
-                    <NavLink className="aboutButton">About</NavLink>
-                    <NavLink className="projectsButton">Projects</NavLink>
-                    <NavLink className="contactButton">Contact</NavLink>
+                    <NavLink to='/about' className="aboutButton">About</NavLink>
+                    <NavLink to='/projects' className="projectsButton">Projects</NavLink>
+                    <NavLink to='/contact' className="contactButton">Contact</NavLink>
                 </nav>
             </div>
         </div>
