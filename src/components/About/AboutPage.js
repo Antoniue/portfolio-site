@@ -10,6 +10,7 @@ import gitlogo from '../About/gitlogo.svg';
 import npmlogo from '../About/npmlogo.webp';
 import reactlogo from '../About/reactlogo.webp';
 import webpacklogo from '../About/webpacklogo.webp';
+import { Footer } from '../Footer/Footer';
 
 function AboutPage(){
     return (
@@ -51,6 +52,7 @@ function AboutPage(){
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

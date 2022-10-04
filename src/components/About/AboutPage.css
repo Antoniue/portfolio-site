@@ -2,8 +2,8 @@ body{
     background-color:rgba(121, 121, 121, 0.116);
 }
 .aboutContent{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 .mainContent{
     padding-left: 10%;
