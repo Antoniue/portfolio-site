@@ -16,7 +16,7 @@ function AboutPage(){
         <div className="aboutContent">
             <Header navlist={['Home', 'Projects', 'Contact']}/>
             <div className="mainContent">
-                <div className="aboutLeft">
+                <div className="aboutTop">
                     <h1>About Me</h1>
                     <div className="texts">
                         <p>Hello!<br></br>
@@ -24,8 +24,9 @@ function AboutPage(){
                             a <span className='purple'>front-end </span>web developer.
                         </p>
                         <p>
-                            As a kid I've always been interested in <span className='purple'>Computers </span>, many hours were spent on games like <span className='purple'>Runescape </span>, which made me fall in love with <span className='purple'>Technology </span> from that point on.
-                            In Middle-School I built my first computer which was an accomplishment at that time.
+                            As a kid I've always been interested in <span className='purple'>Computers </span>, many hours were spent on various videos games (okay... mainly Runescape...),<br></br>
+                            which made me fall in love with <span className='purple'>Technology </span> from that point on.
+                            In Middle-School I built my first computer which was an accomplishment for me at that time.<br></br>
                             Then in High-School I took <span className='purple'>Computer Science </span> for <span className='purple'>3 years </span> mainly focusing on <span className='purple'>Object-Orientated Programming(OOP) </span> using <span className='purple'>C#</span>.<br></br>
                         </p>
                         <p>
@@ -34,8 +35,8 @@ function AboutPage(){
                         </p>
                     </div>
                 </div>
-                <div className="aboutRight">
-                    <h1 className='toolKit'>Toolkit</h1>
+                <div className="aboutBottom">
+                    <h1>Toolkit</h1>
                     <div className="images">
                         <img src={jslogo} alt="Javascript" />
                         <img src={htmllogo} alt="HTML" />
