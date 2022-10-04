@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 7%;
+    box-shadow: 5px 5px 40px rgb(82, 4, 85);
+}
+.headerNavigation{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 30%;
+}
+.headerNavigation a{
+    text-decoration: none;
+    color: rgba(82, 4, 85, 0.8);
+    font-size: 120%;
+    text-decoration: underline 0.15em rgba(82, 4, 85,0);
+    transition: text-decoration-color 700ms;
+    text-decoration-skip-ink: none;
+}
+.headerNavigation a:hover{
+    font-weight: bold;
+    color: rgb(82, 4, 85);
+    text-decoration-color: rgba(82, 4, 85, 1);
+}
