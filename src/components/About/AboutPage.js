@@ -14,7 +14,7 @@ import { Footer } from '../Footer/Footer';
 
 function AboutPage(){
     return (
-        <div className="aboutContent">
+        <div className="content">
             <Header navlist={['Home', 'Projects', 'Contact']}/>
             <div className="mainContent">
                 <div className="aboutTop">
