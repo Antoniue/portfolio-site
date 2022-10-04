@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: bganimation 7s infinite;
+    animation: bganimation 10s infinite;
 }
 
 .welcomeMessage{
@@ -73,9 +73,9 @@
 }
 
 @keyframes bganimation {
-    0% {background-color: rgba(121, 121, 121, 0.418);}
+    0% {background-color: rgba(121, 121, 121, 0.144);}
     50%{background-color:rgba(82, 4, 85, 0.418);}
-    100% {background-color: rgba(121, 121, 121, 0.418);}
+    100% {background-color: rgba(121, 121, 121, 0.144);}
 }
 
 @keyframes buttonanimation {
