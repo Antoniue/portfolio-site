@@ -3,7 +3,7 @@ import github from '../Footer/githublogo.png';
 import discord from '../Footer/discordlogo.png';
 function Footer(){
     return(
-        <div className="footer">
+        <footer className="footer">
             <a href="https://github.com/Antoniue" target='_blank' rel='noreferrer'>
                 <img src={github} alt="Github" className='githubLogo'/>
             </a>
@@ -11,7 +11,7 @@ function Footer(){
                 <img src={discord} alt="Discord" className='discordLogo'/>
                 Versti#6552
             </div>
-        </div>
+        </footer>
     )
 }
 export {Footer};
