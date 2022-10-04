@@ -1,0 +1,45 @@
+.aboutContent{
+    background-color:rgba(121, 121, 121, 0.116);
+    width: 100vw;
+    height: 100vh;
+}
+.mainContent{
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutRight{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutLeft{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    font-size: 20px;
+}
+.texts{
+    text-align: left;
+}
+.aboutRight img{
+    width: 50px;
+    height: 50px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.purple{
+    color: purple;
+    font-weight: bolder;
+    font-style: oblique;
+}
