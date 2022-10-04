@@ -1,0 +1,15 @@
+.demo{
+    width: 40px;
+}
+.picture{
+    width: 200px;
+}
+.projectsContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+.projectCard{
+    box-shadow: 2px 2px 20px rgba(82, 4, 85);
+    margin-left: 20px;
+    margin-right: 20px;
+}
