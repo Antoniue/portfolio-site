@@ -1,7 +1,11 @@
+import { useState } from 'react';
 import githublogo from '../Footer/githublogo.png';
 import demologo from '../Projects/demologo.png';
+import Modal from '../Projects/Modal'
 
 function RenderIndividualProject(project){
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
         <div className="projectCard">
         <h3 className="projectName">{project.summarized.name}</h3>
@@ -14,7 +18,10 @@ function RenderIndividualProject(project){
             <a href={project.summarized.demo} target='_blank' rel="noreferrer">
                 <img src={demologo} alt="demo project" className="demo"/>
             </a>
-            <button className='expandButton'>Expand &gt;</button>
+            <button className='expandButton' onClick={() => setIsOpen(true)}>Expand &gt;</button>
+            <Modal open={isOpen} closeModal={() => setIsOpen(false)}>
+                test
+            </Modal>
         </div>
     </div>
     )
