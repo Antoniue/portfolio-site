@@ -6,7 +6,8 @@
 }
 .projectsContainer{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, 280px);
+    justify-content: center;
 }
 .projectCard{
     box-shadow: 2px 2px 20px rgba(82, 4, 85);
