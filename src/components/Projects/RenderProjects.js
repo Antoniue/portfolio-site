@@ -10,7 +10,7 @@ function RenderProjects({projects}){
                 <img src={projects[0].summarized.picture.project0pic} alt="" className="picture" />
                 <p className="summary">{projects[0].summarized.summary}</p>
                 <a href={projects[0].summarized.github} target='_blank' rel="noreferrer">
-                    <img src={githublogo} className='githubLogo' alt="github" />
+                    <img src={githublogo} className='github' alt="github" />
                 </a>
                 <a href={projects[0].summarized.demo} target='_blank' rel="noreferrer">
                     <img src={demologo} alt="demo project" className="demo"/>

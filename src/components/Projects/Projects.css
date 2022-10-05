@@ -1,16 +1,31 @@
 .demo{
-    width: 40px;
+    width: 15%;
+}
+.github{
+    width: 25%;
 }
 .picture{
-    width: 200px;
+    width: 97%;
+    height: 20%;
+    border: 0.15em solid black;
+}
+.summary{
+    height: 54%;
+}
+.projectsSpace{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 1%;
 }
 .projectsContainer{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 280px);
+    grid-template-columns: repeat(auto-fit, minmax(15%, 280px));
     justify-content: center;
+    gap: 2%;
+    height: 100%;
 }
 .projectCard{
     box-shadow: 2px 2px 20px rgba(82, 4, 85);
-    margin-left: 20px;
-    margin-right: 20px;
+    border-radius: 3%;
 }
