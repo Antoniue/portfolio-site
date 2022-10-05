@@ -42,6 +42,7 @@
     font-size: 100%;
     border-radius: 10px;
     border: 1px solid rgba(82, 4, 85);
+    width: 40%;
 }
 .projectButtons button:hover{
     font-size: 120%;
