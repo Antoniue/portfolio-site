@@ -2,7 +2,6 @@ import githublogo from '../Footer/githublogo.png';
 import demologo from '../Projects/demologo.png';
 
 function RenderProjects({projects}){
-    console.log(projects);
     return(
         <div className="projectsContainer">
             {
