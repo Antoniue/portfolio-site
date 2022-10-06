@@ -22,7 +22,7 @@ function RenderIndividualProject(project){
                 {
                     tools.map((tool) => {
                         return(
-                            <img src={tool} alt={tool} className="toolLogo"/>
+                            <img src={tool.src} alt={tool.name} className="toolLogo"/>
                         )
                     })
                 }
