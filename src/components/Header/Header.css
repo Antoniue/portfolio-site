@@ -95,3 +95,8 @@
         visibility: hidden;
     }
 }
+@media (max-height: 600px){
+    .header{
+        height: 20%;
+    }
+}

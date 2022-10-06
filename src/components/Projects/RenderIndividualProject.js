@@ -34,13 +34,13 @@ function RenderIndividualProject(project){
             </a>
             <button className='expandButton' onClick={() => setIsOpen(true)}>Expand</button>
             <Modal open={isOpen} closeModal={() => setIsOpen(false)}>
-                <h5 className="modalH1">Why did I choose to do this project?</h5>
+                <h5 className="modalH5">Why did I choose to do this project?</h5>
                 <p className="modalText">{project.expanded.whyProject}</p>
-                <h5 className="modalH1">What difficulties did I face?</h5>
+                <h5 className="modalH5">What difficulties did I face?</h5>
                 <p className="modalText">{project.expanded.difficulties}</p>
-                <h5 className="modalH1">How did I deal with these difficulties?</h5>
+                <h5 className="modalH5">How did I deal with these difficulties?</h5>
                 <p className="modalText">{project.expanded.howDealt}</p>
-                <h5 className="modalH1">Tools:</h5>
+                <h5 className="modalH5">Tools:</h5>
                 <HandleTools tools={project.expanded.tools}/>
             </Modal>
         </div>
