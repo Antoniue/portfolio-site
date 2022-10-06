@@ -72,3 +72,28 @@
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.37);
 }
+.toolLogo{
+    width: 10%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.modal button{
+    width: 10%;
+    height: 8%;
+    background-color: transparent;
+    border: none;
+    font-size: 100%;
+    cursor: grab;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.modal h5{
+    width: 100%;
+    height: 2%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.modal p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
