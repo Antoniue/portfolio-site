@@ -2,9 +2,33 @@ import React, { useState } from 'react';
 import githublogo from '../Footer/githublogo.png';
 import demologo from '../Projects/demologo.png';
 import Modal from '../Projects/Modal'
+import jslogo from '../About/jslogo.svg';
+import htmllogo from '../About/htmllogo.ico';
+import expresslogo from '../About/expresslogo.webp';
+import csslogo from '../About/csslogo.webp';
+import mongodblogo from '../About/mongodblogo.webp';
+import nodejslogo from '../About/nodejslogo.webp';
+import gitlogo from '../About/gitlogo.svg';
+import npmlogo from '../About/npmlogo.webp';
+import reactlogo from '../About/reactlogo.webp';
+import webpacklogo from '../About/webpacklogo.webp';
 
 function RenderIndividualProject(project){
     const [isOpen, setIsOpen] = useState(false);
+
+    function HandleTools({tools}){
+        return (
+            <div className="toolsContainer">
+                {
+                    tools.map((tool) => {
+                        return(
+                            <img src={tool} alt={tool} className="toolLogo"/>
+                        )
+                    })
+                }
+            </div>
+        )
+    }
 
     return (
         <div className="projectCard">
@@ -20,7 +44,14 @@ function RenderIndividualProject(project){
             </a>
             <button className='expandButton' onClick={() => setIsOpen(true)}>Expand</button>
             <Modal open={isOpen} closeModal={() => setIsOpen(false)}>
-                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quod.</div>
+                <h5 className="modalH1">Why did I choose to do this project?</h5>
+                <p className="modalText">{project.expanded.whyProject}</p>
+                <h5 className="modalH1">What difficulties did I face?</h5>
+                <p className="modalText">{project.expanded.difficulties}</p>
+                <h5 className="modalH1">How did I deal with these difficulties?</h5>
+                <p className="modalText">{project.expanded.howDealt}</p>
+                <h5 className="modalH1">Tools:</h5>
+                <HandleTools tools={project.expanded.tools}/>
             </Modal>
         </div>
     </div>
