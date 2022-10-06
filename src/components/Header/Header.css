@@ -27,3 +27,71 @@
     color: rgb(82, 4, 85);
     text-decoration-color: rgba(82, 4, 85, 1);
 }
+
+
+.burger-menu {
+    position: absolute;
+    right: 10px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    width: 4em;
+    display: none;
+    visibility: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    cursor: grab;
+}
+.burger-bar {
+    width: 40px;
+    height: 4px;
+    background-color: rgb(82, 4, 85);
+    border-radius: 0.5em;
+}
+.menu {
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(82, 4, 85);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+.visible {
+    display: inherit;
+    visibility: visible;
+}
+.burger-bar.clicked:nth-child(1){
+    transform: rotate(45deg) translate(0.75em, 1.25em);
+    transition: ease-out 0.5s;
+}
+.burger-bar.clicked:nth-child(2){
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+.burger-bar.clicked:nth-child(3){
+    transform: rotate(135deg) translate(-0.5em, 1em);
+    transition: ease-out 0.5s;
+}
+.burger-bar.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
+
+@media (max-width: 700px)
+{
+    .burger-menu{
+        display: flex;
+        visibility: visible;
+    }
+    .headerNavigation{
+        display: none;
+        visibility: hidden;
+    }
+}
