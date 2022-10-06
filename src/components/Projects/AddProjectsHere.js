@@ -1,7 +1,14 @@
 import project0pic from '../Projects/project0pic.png';
 import jslogo from '../About/jslogo.svg';
 import htmllogo from '../About/htmllogo.ico';
+import expresslogo from '../About/expresslogo.webp';
 import csslogo from '../About/csslogo.webp';
+import mongodblogo from '../About/mongodblogo.webp';
+import nodejslogo from '../About/nodejslogo.webp';
+import gitlogo from '../About/gitlogo.svg';
+import npmlogo from '../About/npmlogo.webp';
+import reactlogo from '../About/reactlogo.webp';
+import webpacklogo from '../About/webpacklogo.webp';
 
 
 function AddProjectsHere(){

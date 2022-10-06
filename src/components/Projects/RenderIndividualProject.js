@@ -1,17 +1,7 @@
 import React, { useState } from 'react';
 import githublogo from '../Footer/githublogo.png';
 import demologo from '../Projects/demologo.png';
-import Modal from '../Projects/Modal'
-import jslogo from '../About/jslogo.svg';
-import htmllogo from '../About/htmllogo.ico';
-import expresslogo from '../About/expresslogo.webp';
-import csslogo from '../About/csslogo.webp';
-import mongodblogo from '../About/mongodblogo.webp';
-import nodejslogo from '../About/nodejslogo.webp';
-import gitlogo from '../About/gitlogo.svg';
-import npmlogo from '../About/npmlogo.webp';
-import reactlogo from '../About/reactlogo.webp';
-import webpacklogo from '../About/webpacklogo.webp';
+import Modal from '../Projects/Modal';
 
 function RenderIndividualProject(project){
     const [isOpen, setIsOpen] = useState(false);
