@@ -16,7 +16,7 @@ function AddProjectsHere(){
         'expanded': {'whyProject': 'I wanted to practice fetching data from an API and using it',
         'difficulties': "I didn't have major difficulties, only minor ones regarding the API itself",
         'howDealt': 'I had to revisit some documentation on fetching data from the specific API (OpenWeatherMap)',
-        'tools': {jslogo, htmllogo, csslogo}}
+        'tools': [jslogo, htmllogo, csslogo]}
         }
     ];
     return projects;
