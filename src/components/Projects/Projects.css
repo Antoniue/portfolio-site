@@ -79,13 +79,14 @@
 }
 .modal button{
     width: 10%;
-    height: 8%;
     background-color: transparent;
     border: none;
     font-size: 100%;
+    font-weight: bolder;
     cursor: grab;
-    border: 1px solid black;
     border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 .modal h5{
     width: 100%;
@@ -96,4 +97,9 @@
 .modal p{
     margin-left: 5px;
     margin-right: 5px;
+}
+.buttonContainer{
+    display: flex;
+    height: 10%;
+    justify-content: flex-end;
 }
