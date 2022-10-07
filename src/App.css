@@ -1,3 +1,43 @@
 .App {
   text-align: center;
 }
+
+
+
+/* WHOLE WEBSITE DARK THEME BELOW THIS LINE*/
+#dark .header{
+  background-color: rgba(87, 0, 95, 0.274);
+}
+#dark .headerNavigation a{
+  text-decoration: none;
+  color: white;
+  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+}
+#dark .headerNavigation a:hover{
+  color: white;
+  text-decoration-color: white;
+}
+#dark .content, #dark .mainContent{
+  background-color: black;
+}
+#dark .headerLogo, #dark .contactText, #dark .aboutTop , #dark .aboutBottom, #dark .projectsSpace, #dark .expandButton{
+  color: white;
+}
+#dark .projectCard{
+  background-color: rgba(61, 41, 63, 0.884);
+}
+#dark .footer {
+  background-color: rgba(61, 41, 63, 0.884);
+  margin-top: 0px;
+}
+.darkSwitch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15%;
+  right: 5%;
+}
+#dark .darkSwitch{
+  color: white;
+}

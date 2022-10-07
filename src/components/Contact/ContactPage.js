@@ -6,7 +6,7 @@ function ContactPage(){
         <>
         <div className="content">
             <Header navlist={['Home', 'About', 'Projects']}/>
-            <h1>WORK IN PROGRESS,<br></br>
+            <h1 className='contactText'>WORK IN PROGRESS,<br></br>
             CURRENTLY LEARNING THE BACK END TO IMPLEMENT THIS.
             </h1>
             <Footer />
