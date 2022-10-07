@@ -25,18 +25,39 @@
 .headerNavigation a:hover{
     font-weight: bold;
     color: rgb(82, 4, 85);
-    text-decoration-color: rgba(82, 4, 85, 1);
+    text-decoration-color: rgba(82, 4, 85);
 }
-
+.responsiveNavigation{
+    display: none;
+    visibility: hidden;
+    gap: 50px;
+}
+.responsiveNavigation img{
+    display: inherit;
+    width: 30px;
+}
+@media (max-width: 370px)
+{
+    .headerLogo{
+        font-size: 20px;
+    }
+    .responsiveNavigation img{
+        width: 20px;
+    }
+}
 @media (max-width: 700px)
 {
     .headerNavigation{
         display: none;
         visibility: hidden;
     }
+    .responsiveNavigation{
+        display: flex;
+        visibility: visible;
+    }
 }
-/* @media (max-height: 600px){
+@media (max-height: 600px){
     .header{
         height: 20%;
     }
-} */
+}
