@@ -1,6 +1,5 @@
 import { Footer } from '../Footer/Footer';
 import { Header } from '../Header/Header';
-import '../Contact/ContactPage.css';
 
 function ContactPage(){
     return(
