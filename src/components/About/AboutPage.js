@@ -21,11 +21,11 @@ function AboutPage(){
                     <h1>About Me</h1>
                     <div className="texts">
                         <p>Hello!<br></br>
-                            I'm <span className='purple'>Anton Jarayseh</span>/<span className='purple'>Antoniue</span>, from<span className='purple'> Israel</span>,<br></br>
+                            I'm <span className='purple'>Anton Jarayseh </span>/<span className='purple'>Antoniue</span>, from<span className='purple'> Israel</span>,<br></br>
                             a <span className='purple'>front-end </span>web developer.
                         </p>
                         <p>
-                            As a kid I've always been interested in <span className='purple'>Computers </span>, many hours were spent on various videos games (okay... mainly Runescape...),<br></br>
+                            As a kid I've always been interested in <span className='purple'>Computers </span>, many hours were spent on various videos games (okay I admit... too much Runescape...),<br></br>
                             which made me fall in love with <span className='purple'>Technology </span> from that point on.
                             In Middle-School I built my first computer which was an accomplishment for me at that time.<br></br>
                             Then in High-School I took <span className='purple'>Computer Science </span> for <span className='purple'>3 years </span> mainly focusing on <span className='purple'>Object-Orientated Programming(OOP) </span> using <span className='purple'>C#</span>.<br></br>
