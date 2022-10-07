@@ -28,7 +28,6 @@
 }
 #dark .footer {
   background-color: rgba(61, 41, 63, 0.884);
-  margin-top: 0px;
 }
 .darkSwitch{
   display: flex;
@@ -40,4 +39,15 @@
 }
 #dark .darkSwitch{
   color: white;
+}
+@media (max-width: 700px){
+  .darkSwitch label{
+    display: none;
+    visibility: hidden;
+  }
+}
+@media (max-height: 600px){
+  .darkSwitch{
+    top: 20%;
+  }
 }
